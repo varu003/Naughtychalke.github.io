@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>System Hacked!</title>
+  <style>
+    body {
+      background-color: black;
+      color: lime;
+      font-family: monospace;
+      padding: 30px;
+      font-size: 1.2em;
+    }
+    #main {
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      0%, 100% { color: lime; }
+      50% { color: red; }
+    }
+  </style>
+</head>
+<body>
+  <div id="main">
+    Initializing Naughty Chalke Protocol...<br><br>
+    Bypassing firewall...<br>
+    Accessing secure server...<br>
+    Installing virus...<br>
+    <strong>System Hack: 99% Complete</strong><br>
+  </div>
+
+  <audio id="fart" src="https://www.soundjay.com/human/fart-01.mp3" preload="auto"></audio>
+
+  <script>
+    setTimeout(() => {
+      document.body.innerHTML = `
+        <h1 style="color: red; text-align: center; font-size: 3em;">YOU GOT TROLLED!</h1>
+        <p style="text-align: center;">by <strong>Naughty Chalke</strong></p>
+        <img src="https://media.giphy.com/media/l4Jz3a8jO92crUlWM/giphy.gif" style="display: block; margin: auto; width: 300px;">
+      `;
+      document.getElementById("fart").play();
+    }, 7000); // 7 seconds delay
+  </script>
+</body>
+</html>
